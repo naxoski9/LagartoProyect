@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Lagarto Grow</title>
+    <link rel="stylesheet" href="../css/seguimiento.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="user-section">
+                <span class="user-icon">👤</span>
+                <p>Sebastian Admin</p>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><button onclick="location.href='Inventario.php'">📦 Inventario</button></li>
+                    <li><button onclick="location.href='Proveedores.php'">🛒 Proveedores</button></li>
+                    <li><button onclick="location.href='seguimiento.html'">📊 Seguimiento</button></li>
+                    <li><button onclick="location.href='Boleta.php'">🧾 Boleta/Factura</button></li>
+                </ul>
+            </nav>
+            <button class="logout-button" onclick="location.href='../login.html'">Cerrar Sesión</button> 
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                
+                <img src="/img/lagarto.jpg" alt="Lagarto Grow Logo" class="logo">
+                <h1>Sistema Lagarto Grow</h1>
+            </header>
+            <div class="search-container">
+                <input type="text" placeholder="Buscar">
+                <button>Buscar</button>
+            </div>
+            <div class="button-group">
+                <button onclick="location.href='marcar_pedido.html'">Marcar Pedido</button>
+                <button onclick="location.href='editar.html'">Editar</button>
+                <button onclick="location.href='eliminar.html'">Eliminar</button>
+                <button onclick="location.href='historial_pedidos.html'">Historial de pedidos</button>
+                <button onclick="location.href='agregar_pedido.php'">Agregar Pedido</button>
+            </div>
+           
+            <div class="card">
+                <h2>Codigo de seguimiento</h2>
+            </div>
+            <div class="card">
+                <h2>Fecha del último pedido</h2>
+            </div>
+            <div class="card">
+                <h2>Estado</h2>
+            </div>
+        </main>
+    </div>
+        
+
+</body>
+</html>
